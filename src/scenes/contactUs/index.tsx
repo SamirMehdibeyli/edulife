@@ -5,11 +5,11 @@ import Contact from "@/assets/ContactUs.png";
 import Header from "@/shared/Header";
 
 type Props = {
-  children: React.ReactNode;
+
   setSelectedPage: (value: SelectedPage) => void;
 };
 
-const ContactUs = ({ setSelectedPage, children }: Props) => {
+const ContactUs = ({ setSelectedPage}: Props) => {
   const inputDesign = `mb-5 w-full rounded-lg bg-secondary-100 px-5 py-3 placeholder-white text-white`;
 
   const {

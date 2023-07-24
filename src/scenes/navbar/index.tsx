@@ -47,17 +47,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage, children }: Props)
                     selectedPage={selectedPage}
                     setSelectedPage={setSelectedPage}
                   />
-                  <AnchorLink
-                    onClick={() => setSelectedPage(SelectedPage.ContactUs)}
-                    href="#contactus"
-                  >
-                    {children}
-                    <Link
+                <Link
                       page="Əlaqə"
                       selectedPage={selectedPage}
                       setSelectedPage={setSelectedPage}
                     />
-                  </AnchorLink>
                 </div>
                 <div className={`${flexBetween} gap-8`}>
                   <p>Daxil ol</p>
